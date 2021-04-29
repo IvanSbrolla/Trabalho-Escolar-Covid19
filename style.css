@@ -1,0 +1,353 @@
+p{
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.boxFooter{
+    width: 100%;
+    padding: 5px 30px;
+    background: linear-gradient(170deg,#2b2b2b,rgba(0,0,0,0.95));
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.subBoxFooter{    
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconFooter{
+    color: #7b7b7b;
+}
+.iconFooter:hover{
+    transition: 0.5s;
+    color:rgb(25, 133, 235);
+}
+
+@media screen and(max-width:500px){
+    
+}
+
+.divisor{
+    width: 90%;
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.boxWallpaperIndexEJumbotron{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.imgWallpaperIndex{
+    width: 100%;
+    
+}
+.boxImagemETexto{
+    width: 100%;
+    position: relative!important;
+}
+.boxTextCovid{
+    position: absolute;
+    padding:15px 25px;
+    width: 100%;
+    top: 30%;
+    background-color: rgba(32, 32, 32, 0.80);
+    display: none;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.textCovid{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+}
+.subTextCovid{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 11px;
+    margin-top: -9px;
+}
+.JumbotronEffect{
+    position: absolute!important;
+    top: 25%;
+    width:100%;
+    background-color:rgb(39, 34, 105,0.98)!important ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 0px!important;
+}
+.h1Wallpaper{
+    color: white;
+}
+.p1Wallpaper{
+    color: rgb(209, 208, 208);
+}
+.p2Wallpaper{
+    color: rgb(143, 143, 143);
+}
+.btnAction{
+    display: flex;
+    background: white!important;
+    border:rgb(39, 34, 105,0.98) ;
+    font-size: 20px;
+}
+.btnAction:hover{
+    background: rgb(39, 34, 105,0.98)!important;
+    border-color:white!important;
+    color: white!important;
+}
+@media screen and (max-width:1170px){
+    .p1Wallpaper{
+        font-size: 18px!important;
+    }
+    .JumbotronEffect{
+        padding-top: 15px!important;
+        padding-bottom: 20px!important;
+    }
+}
+@media screen and (max-width:933px){
+    .boxTextCovid{
+        display: flex;
+    }
+    .textCovid{
+        font-size: 50px;
+    }
+    .subTextCovid{
+        font-size: 18px;
+        margin-top: -9px;
+    }
+    .boxWallpaperIndexEJumbotron{
+        flex-direction: column;
+        position: relative;
+    }
+    .JumbotronEffect{
+        position: unset!important;
+    
+    }
+}
+@media screen and (max-width:590px){
+    .textCovid{
+        font-size: 40px;
+    }
+    .subTextCovid{
+        font-size: 15px;
+        margin-top: -9px;
+    }
+    .h1Wallpaper{
+        font-size: 35px!important;
+    }
+    .p1Wallpaper{
+        font-size: 16px!important;
+    }
+    .p2Wallpaper{
+        font-size: 14px!important;
+    }
+    .btnAction{
+        font-size: 18px!important;
+    }
+}
+@media screen and (max-width:400px){
+    .textCovid{
+        font-size: 30px;
+    }
+    .subTextCovid{
+        font-size: 11px;
+        margin-top: -9px;
+    }
+    .h1Wallpaper{
+        font-size: 30px!important;
+    }
+    .p1Wallpaper{
+        font-size: 13px!important;
+    }
+    .p2Wallpaper{
+        font-size: 10px!important;
+    }
+    .btnAction{
+        font-size: 15px!important;
+    }
+}
+.boxCardsIndex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 60px 10%;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.subBoxCardsIndex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.titleFont{
+    font-family: 'Quicksand', sans-serif;
+}
+.cardIndex{
+    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 8px 10px 8px;
+    border-right: 2px solid rgba(121, 120, 120, 0.4);
+    
+}
+.cardL{
+    margin-right:20px;
+}
+.iconIndex{
+    font-size: 120px;
+    color:rgba(12, 132, 231, 0.98);
+}
+.boxTextCardIndex{
+    padding: 15px 15px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.textCardIndex{
+    font-family: 'Quicksand', sans-serif;
+}
+@media screen and (max-width:900px){
+    .subBoxCardsIndex{
+        flex-direction: column;
+    }
+    .cardIndex{
+        margin-bottom: 35px;
+    }
+    .subBoxCardsIndex{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .iconIndex{
+        font-size: 80px!important;
+    }
+    .boxTextCardIndex{
+        padding: 8px 8px;
+    }
+}
+@media screen and (max-width:511px){
+    .titleCardsIndex{
+        font-size: 26px;
+    }
+    .divisor{
+        width: 100%;
+    }
+}
+.boxEstouComCovidIndex{
+    background: linear-gradient(120deg,rgba(70, 116, 214, 0.98),rgb(39, 34, 105,0.98));
+    padding: 60px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.boxTituloEstouComCovidIndex{
+    width: 100%;
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.titleCorona{
+    font-size: 30px;
+    color: white;
+}
+.subBoxEstouComCovidIndex{
+    color:white;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+@media screen and (max-width:511px){
+    .titleCorona{
+        font-size: 28px;
+    }
+}
+
+/* config infos*/
+
+.boxInfos{
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.boxTituloInfos{
+    width: 100%;
+    display: flex;
+    padding: 30px 80px;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.iconsInfos{
+    color: #48cae4;
+    margin-bottom: 20px;
+}
+.subTititleInfos{
+    color: #8b8b8b;
+}
+.subBoxInfos{
+    width: 70%;
+    color: black;
+    font-size: 18px
+}
+.boxTituloInfos .titleFont{
+    text-align: center;
+}
+.boxTituloInfos .subTititleInfos{
+    text-align: center;
+}
+.subBoxInfos h3{
+    text-align: center;
+}
+.boxVideoYt{
+    width: 100%;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.boxVideoYt iframe{
+    width: 100%;
+}
+/* pagina depoimentos*/
+
+#boxDepoimentoIvan{
+    background-color: #023e8a;
+    width: 100%;
+    padding: 40px 10%;
+    color:white
+}
